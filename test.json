@@ -1,0 +1,99 @@
+{
+  "intent_hello": {
+    "session": {
+      "sessionId": "SessionId.ba3941c6-f766-4e27-b22c-97e1671b8bdd",
+      "application": {
+        "applicationId": "amzn1.ask.skill.c96e3692-86a1-4f05-96eb-16c090aa8563"
+      },
+      "attributes": {},
+      "user": {
+        "userId": "amzn1.ask.account.AHJ26YHD4JMEKYR7RWESOBKJWXJ3RR7CP6UYNQN2H3OMVJYRSCYSOW6HNSPTE6UKPBT5ZI67DBBN7DY3ZDARE3LLYTLWGDUGY7PJBE3HQCMEVX3SSGTXOROJVXFEOZQWDXC6X7RG6BCANJPXY7RKS2FSEDVZLBTPNV54GMSW2WYONUKZIGEWFN27RFRM5CWKA2HNVE2KQNRJGWI"
+      },
+      "new": true
+    },
+    "request": {
+      "type": "IntentRequest",
+      "requestId": "EdwRequestId.48eee1eb-965c-4b5a-843c-7efabe6cf5b4",
+      "locale": "en-GB",
+      "timestamp": "2016-11-04T02:16:35Z",
+      "intent": {
+        "name": "GetHello",
+        "slots": {
+          "name": {
+            "name": "name",
+            "value": "John Smith"
+          }
+        }
+      }
+    },
+    "version": "1.0"
+  },
+  "launch": {
+    "session": {
+      "sessionId": "SessionId.608e2b77-75bc-4c7d-9a77-2210c262a0d0",
+      "application": {
+        "applicationId": "amzn1.ask.skill.b4d78395-8d71-4ded-ac76-5106bf519081"
+      },
+      "attributes": {
+        "hello": "wow"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AEZML6E5DPAZZCGHBNK7XYJBKHBQIACKOBE6UWWQLZVN262B65V2VG4UJFPUUFWMEHIRUJIK46L4M2HSPX5EF54YCLA5JQBNFPPLYMEBSIUMCUIESFGBUAE6XF2JCUNYGJRSNHK2DPN556KROZMK5BJWXVTVLUDVH577GM77RHZP6MOM4CY7YTGWEJ74B2MYJSX63GVIX2J65AY"
+      },
+      "new": true
+    },
+    "request": {
+      "type": "LaunchRequest",
+      "requestId": "EdwRequestId.2a6fe37c-f487-40f4-9484-b3b1440cafeb",
+      "locale": "en-US",
+      "timestamp": "2016-11-01T23:05:45Z"
+    },
+    "version": "1.0"
+  },
+  "end": {
+    "version": "1.0",
+    "session": {
+      "new": false,
+      "sessionId": "amzn1.echo-api.session.0000000-0000-0000-0000-00000000000",
+      "application": {
+        "applicationId": "amzn1.echo-sdk-ams.app.000000-d0ed-0000-ad00-000000d00ebe"
+      },
+      "attributes": {
+        "supportedHoroscopePeriods": {
+          "daily": true,
+          "weekly": false,
+          "monthly": false
+        }
+      },
+      "user": {
+        "userId": "amzn1.account.AM3B00000000000000000000000"
+      }
+    },
+    "context": {
+      "System": {
+        "application": {
+          "applicationId": "amzn1.echo-sdk-ams.app.000000-d0ed-0000-ad00-000000d00ebe"
+        },
+        "user": {
+          "userId": "amzn1.account.AM3B00000000000000000000000"
+        },
+        "device": {
+          "supportedInterfaces": {
+            "AudioPlayer": {}
+          }
+        }
+      },
+      "AudioPlayer": {
+        "offsetInMilliseconds": 0,
+        "playerActivity": "IDLE"
+      }
+    },
+    "request": {
+      "type": "SessionEndedRequest",
+      "requestId": "amzn1.echo-api.request.0000000-0000-0000-0000-00000000000",
+      "timestamp": "2015-05-13T12:34:56Z",
+      "reason": "USER_INITIATED",
+      "locale": "string"
+    }
+  }
+}
